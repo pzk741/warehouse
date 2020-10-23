@@ -1,0 +1,51 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: initial;
+}
+input{
+    outline: 0;
+    border: 0;
+    border: 1px solid #ccc;
+}
+.clear::after{
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+html,body,#app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.el-menu--collapse .el-submenu__title span {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+    display: inline-block;
+}
+
+.el-menu--collapse .el-menu-item .el-submenu__icon-arrow, .el-menu--collapse .el-submenu .el-submenu__title .el-submenu__icon-arrow {
+    display: none;
+}
+.el-menu-item-group .el-menu-item{
+   padding:0 0 0 30px;
+
+}
+
+.el-menu-item-group .el-menu-item-group__title{
+    padding:0
+}
+#nprogress .bar { /*进度条样式*/
+    background: hotpink !important;
+}
